@@ -50,6 +50,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>33D695B6-8D50-4928-960C-E8550B0B4619</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC01BAAA-05C4-478F-BB25-314CB4C66707</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>546DA8C7-B598-424E-A5D6-84E7F9B28E9F</key>
 		<array>
 			<dict>
@@ -651,6 +662,45 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>62</integer>
+				<key>script</key>
+				<string>/usr/bin/perl layout.pl "auto:layout"
+</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CC01BAAA-05C4-478F-BB25-314CB4C66707</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>a</string>
+				<key>text</key>
+				<string>Auto Layout</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>33D695B6-8D50-4928-960C-E8550B0B4619</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -675,6 +725,11 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 		<dict>
 			<key>ypos</key>
 			<real>250</real>
+		</dict>
+		<key>33D695B6-8D50-4928-960C-E8550B0B4619</key>
+		<dict>
+			<key>ypos</key>
+			<real>1760</real>
 		</dict>
 		<key>351ED8B0-52BE-4FC2-B1AA-B367032F49D3</key>
 		<dict>
@@ -750,6 +805,11 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 		<dict>
 			<key>ypos</key>
 			<real>1630</real>
+		</dict>
+		<key>CC01BAAA-05C4-478F-BB25-314CB4C66707</key>
+		<dict>
+			<key>ypos</key>
+			<real>1760</real>
 		</dict>
 		<key>D28A9EB0-22D3-499C-8E09-BCD4D07A544A</key>
 		<dict>

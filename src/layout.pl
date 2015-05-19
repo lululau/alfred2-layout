@@ -184,6 +184,127 @@ sub setWindowBounds {
 	$window->size()->setTo_($size);
 }
 
+sub exec_cmd {
+  my ($process, $cmd_str) = @_;
+  my $appScreen = $main::appScreen;
+  my $command;
+  my @targetArg;
+  my $screenOffset = 0;
+  my @commandAndTarget = split(/:/, $cmd_str);
+  if (scalar(@commandAndTarget) == 2) {
+    $command = @commandAndTarget[0];
+    @targetArg = split(/,/, @commandAndTarget[1]);
+  } else {
+    $command = "set";
+    @targetArg = split(/,/, @commandAndTarget[0]);
+  }
+
+  my $window = findMainWindow($process);
+
+  $debug && syslog(LOG_NOTICE, sprintf("Window title: %s", $window->title()->cString()));
+
+  my $position = $window->position()->get();
+  my $size = $window->size()->get();
+  my $appRect = Rect->new($position->objectAtIndex_(0)->floatValue(), 
+              $position->objectAtIndex_(1)->floatValue(),
+              $position->objectAtIndex_(0)->floatValue() + $size->objectAtIndex_(0)->floatValue(),
+              $position->objectAtIndex_(1)->floatValue() + $size->objectAtIndex_(1)->floatValue());
+
+  $debug && syslog(LOG_NOTICE, sprintf("Window rect: %d %d %d %d", $appRect->left, $appRect->top, $appRect->right, $appRect->bottom));
+
+
+  given($command) {
+    when('fullscreen') {
+      # Toggle fullscreen
+      my $isFullScreen = $window->attributes()->objectWithName_('AXFullScreen')->value()->get()->boolValue();
+
+      $window->attributes()->objectWithName_('AXFullScreen')->value()->setTo_(NSNumber->numberWithBool_(!$isFullScreen));		
+    };
+    when('resize') {
+      # Simple resize of the window (grow/shrink any desired corner)
+      my $target = Rect->new(
+              $appRect->left - $appScreen->width * @targetArg[0],
+              $appRect->top - $appScreen->height * @targetArg[1],
+              $appRect->right + $appScreen->width * @targetArg[2],
+              $appRect->bottom + $appScreen->height * @targetArg[3]);
+
+      setWindowBounds($process, $window, $appScreen, $target);
+    };
+    when('resizeAll') {
+      # Single value => resize in all directions with sticks screen borders
+      my $resize_x = $appScreen->width * @targetArg[0];
+      my $resize_y = $appScreen->height * @targetArg[0];
+      my $target = Rect->new($appRect->left, $appRect->top, $appRect->right, $appRect->bottom);
+      if ( abs($appRect->left - $appScreen->left) < 0.01 * $appScreen->width ) {
+        if ( abs($appRect->right - $appScreen->right) < 0.01 * $appScreen->width ) {
+          $target->{_left} = $appScreen->left;
+          $target->{_right} = $appScreen->right;
+        } else {
+          $target->{_left} = $appScreen->left;
+          $target->{_right} = $appRect->right + $resize_x;
+        }
+      } elsif ( abs($appRect->right - $appScreen->right) < 0.01 * $appScreen->width ) {
+        $target->{_left} = $appRect->left - $resize_x;
+        $target->{_right} = $appScreen->right;
+      } else {
+        $target->{_left} = $appRect->left - $resize_x * 0.5;
+        $target->{_right} = $appRect->right + $resize_x * 0.5;
+      }
+      if ( abs($appRect->top - $appScreen->top) < 0.01 * $appScreen->height ) {
+        if ( abs($appRect->bottom - $appScreen->bottom) < 0.01 * $appScreen->height ) {
+          $target->{_top} = $appScreen->top;
+          $target->{_bottom} = $appScreen->bottom;
+        } else {
+          $target->{_top} = $appScreen->top;
+          $target->{_bottom} = $appRect->bottom + $resize_y;
+        }
+      } elsif ( abs($appRect->bottom - $appScreen->bottom) < 0.01 * $appScreen->height ) {
+        $target->{_top} = $appRect->top - $resize_y;
+        $target->{_bottom} = $appScreen->bottom;
+      } else {
+        $target->{_top} = $appRect->top - $resize_y * 0.5;
+        $target->{_bottom} = $appRect->bottom + $resize_y * 0.5;
+      }
+
+      setWindowBounds($process, $window, $appScreen, $target);
+    };
+    when('move') {
+      # Two values => Move window to coords (center_x, center_y), prevent window from moving out of screen
+      my $target_x = $appScreen->left + $appScreen->width * @targetArg[0];
+      my $target_y = $appScreen->top + $appScreen->height * @targetArg[1];
+      my $pos_x = $target_x - $appRect->width * 0.5;
+      my $pos_y = $target_y - $appRect->height * 0.5;
+      if ($pos_x < $appScreen->left) {
+        $pos_x = $appScreen->left;
+      }
+      if ( $pos_y < $appScreen->top) {
+        $pos_y = $appScreen->top;
+      }
+      if ($pos_x + $appRect->width > $appScreen->right) {
+        $pos_x = $appScreen->right - $appRect->width;
+      }
+      if ($pos_y + $appRect->height > $appScreen->bottom) {
+        $pos_y = $appScreen->bottom - $appRect->height;			
+      }
+      my $pos = NSMutableArray->arrayWithCapacity_(2);
+      $pos->addObject_(NSNumber->numberWithFloat_($pos_x));
+      $pos->addObject_(NSNumber->numberWithFloat_($pos_y));
+
+      $window->setPosition_($pos);
+    };
+    when('set') {
+      # Four values => Move and resize window to coords (left, top, right, bottom)
+      my $target = Rect->new(
+              $appScreen->left + $appScreen->width * @targetArg[0], 
+              $appScreen->top + $appScreen->height * @targetArg[1], 
+              $appScreen->left + $appScreen->width * @targetArg[2], 
+              $appScreen->top + $appScreen->height * @targetArg[3]);
+
+      setWindowBounds($process, $window, $appScreen, $target);
+    }
+  }
+}
+
 # Extract commandline parameters to: $command, $targetArg and $screenOffset
 # Usually separated by ':', but we support some legacy
 my $command;
@@ -249,7 +370,7 @@ for my $index (0 .. $#screens) {
 }
 # ... and add a screen offset (if there is one, i.e. move window to some different screen)
 $appScreenIdx = ($appScreenIdx + $screenOffset) % scalar(@screens);
-my $appScreen = @screens[$appScreenIdx];
+our $appScreen = @screens[$appScreenIdx];
 
 $debug && syslog(LOG_NOTICE, sprintf("Selected screen rect: %d %d %d %d", $appScreen->left, $appScreen->top, $appScreen->right, $appScreen->bottom));
 
@@ -341,5 +462,29 @@ given($command) {
 						$appScreen->top + $appScreen->height * @targetArg[3]);
 
 		setWindowBounds($frontmost, $window, $appScreen, $target);
-	}
+	};
+  when('auto') {
+    use YAML::Syck; 
+    $YAML::Syck::ImplicitTyping = 1;
+    my $conf_file = $ENV{'HOME'} . '/.autolayouts.yaml';
+    exit unless -e $conf_file;
+    my $conf = LoadFile($conf_file);
+    my $resolutions = $conf->{'resolutions'};
+    my $mainScreenWidth = $mainScreenFrame[2];
+    my $resolution = (grep { $_->{'width'} == $mainScreenWidth } @{$conf->{'resolutions'}})[0];
+    my $all_reso = (grep { $_->{'width'} == 0 } @{$conf->{'resolutions'}})[0];
+
+    for my $app (@{$conf->{'apps'}}) {
+      my $predicate = NSPredicate->predicateWithFormat_("name == \"$app->{'name'}\"");
+      my $process = $systemevents->processes()->filteredArrayUsingPredicate_($predicate)->firstObject();
+      if (ref($process) eq 'NSObject') {
+        if ($resolution && exists $app->{'actions'}{$resolution->{'name'}}) {
+          exec_cmd($process, $app->{'actions'}{$resolution->{'name'}})
+        } elsif ($all_reso && exists $app->{'actions'}{$all_reso->{'name'}}) {
+          exec_cmd($process, $app->{'actions'}{$all_reso->{'name'}})
+        }
+      }
+    }
+
+  }
 }
