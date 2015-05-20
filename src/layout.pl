@@ -200,6 +200,7 @@ sub exec_cmd {
   }
 
   my $window = findMainWindow($process);
+  return if ref($window) ne 'NSObject';
 
   $debug && syslog(LOG_NOTICE, sprintf("Window title: %s", $window->title()->cString()));
 
