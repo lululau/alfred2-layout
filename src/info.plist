@@ -6,6 +6,32 @@
 	<string>de.leanovate.alfred.layout</string>
 	<key>connections</key>
 	<dict>
+		<key>07EF44CF-9D26-42E4-9A55-6AFA3E84E393</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A48E0764-141D-4E14-A1DF-B500E5E78025</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0948A64C-82F9-4BB9-9DC0-9BCB9A43CFBC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>673C9067-7A5F-456B-8D36-9944A2E363B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1DABD84A-FE15-4A4F-8D33-40231B8E1DA3</key>
 		<array>
 			<dict>
@@ -15,6 +41,34 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1EFDC272-E2C9-403D-9845-91F767CEFEAD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E39E541-4F72-4E50-A615-49E1FFC9A41E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>22B7C6F1-6833-472D-B9FA-97C3D77EB20C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>277EB8CF-2B86-4F8D-868C-7E39EE34ACD7</key>
@@ -26,6 +80,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>286928BC-1B79-479D-B761-85FDCC011A01</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>568F2D89-969D-4756-A5F6-33399DCFA96D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>29660068-25AD-4F84-BDFF-A53D0AA57A5B</key>
@@ -37,17 +106,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-			</dict>
-		</array>
-		<key>328173F0-A7F1-4EA9-BE6B-47353EAF5010</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>33D695B6-8D50-4928-960C-E8550B0B4619</key>
@@ -59,6 +119,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>546DA8C7-B598-424E-A5D6-84E7F9B28E9F</key>
@@ -70,6 +132,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>58471BB7-9D86-4063-BCA3-2DC5BBADAA8C</key>
@@ -81,6 +145,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>663DDC64-8666-409F-8A75-E976B5D087E2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9DC11F89-BB86-4363-9950-25E61F0D69B3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>691EF607-FFE2-44E8-A264-F2D570686AAB</key>
@@ -92,6 +171,73 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>71519525-BB86-4394-989E-16D1AF2AF3B4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8CEB8FAA-49B9-4AD1-AF8F-01B27DE57F3F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8F881241-6909-43A4-8A54-58AAD6C02E9A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9268E4B0-322E-449A-881D-0F86EBD13212</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>42FF0B2B-46D2-410A-8D56-D0869528CB59</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9815CCD9-5960-470C-B5A4-FF0D721640F2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>9964D2C7-BC11-4D7B-BCD3-83FBA1313EAE</key>
@@ -103,6 +249,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>9F2EF603-B6CC-4BEF-88EE-0D68066ACCE9</key>
@@ -114,6 +262,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -122,6 +272,47 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open in Finder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A2E06EEE-6FF3-41BB-8E38-2540245A7784</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>351ED8B0-52BE-4FC2-B1AA-B367032F49D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B407252F-5227-4C8C-9906-B09901D53F76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C2B12F1F-73E4-468B-8EAA-96F70988761B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>D28A9EB0-22D3-499C-8E09-BCD4D07A544A</key>
@@ -133,6 +324,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>DD509A25-DAB1-4ED3-A9B4-5BD6C931BE07</key>
@@ -144,6 +337,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E033E318-43B0-4651-8E84-D2793A0409E2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>EC5B8B5B-24D7-4316-B2EA-E197F8AC4531</key>
@@ -155,6 +363,34 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F0153D9E-3A79-4AD9-887C-05842E8A1851</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>691EF607-FFE2-44E8-A264-F2D570686AAB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F0AE0034-CCD3-4C83-A9D5-8D1E21842705</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -171,6 +407,41 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>set:0,0,0.5,0.5</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>18</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>1</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>71519525-BB86-4394-989E-16D1AF2AF3B4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -185,8 +456,14 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>/usr/bin/perl layout_select.pl "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Layout window</string>
 				<key>title</key>
@@ -201,7 +478,137 @@
 			<key>uid</key>
 			<string>691EF607-FFE2-44E8-A264-F2D570686AAB</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>37</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>L</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F0153D9E-3A79-4AD9-887C-05842E8A1851</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>resizeAll:-0.16667</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>27</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>_</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B407252F-5227-4C8C-9906-B09901D53F76</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>resizeAll:0.16667</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>24</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>+</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>C2B12F1F-73E4-468B-8EAA-96F70988761B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>set:0.5,0,1,0.5</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>19</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>2</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>22B7C6F1-6833-472D-B9FA-97C3D77EB20C</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -213,6 +620,10 @@
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "{query}"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -221,11 +632,13 @@
 			<key>uid</key>
 			<string>4109C8CA-8D0F-4B02-A658-9D6CB5630508</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -240,8 +653,14 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>/usr/bin/perl layout_select.pl "{query}" +1</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Layout window to other screen</string>
 				<key>title</key>
@@ -256,7 +675,7 @@
 			<key>uid</key>
 			<string>1DABD84A-FE15-4A4F-8D33-40231B8E1DA3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -266,11 +685,17 @@
 				<key>argument</key>
 				<integer>3</integer>
 				<key>argumenttext</key>
-				<string>set:0,0,1,1:+1</string>
+				<string>set:0,0.5,0.5,1</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>20</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>3</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -281,9 +706,42 @@
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>328173F0-A7F1-4EA9-BE6B-47353EAF5010</string>
+			<string>8F881241-6909-43A4-8A54-58AAD6C02E9A</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>set:0.5,0.5,1,1</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>21</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>4</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>8CEB8FAA-49B9-4AD1-AF8F-01B27DE57F3F</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -294,6 +752,10 @@
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>move:0.5,0.5</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
@@ -310,7 +772,106 @@
 			<key>uid</key>
 			<string>9964D2C7-BC11-4D7B-BCD3-83FBA1313EAE</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>set:0.6667,0,1,1</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>29</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>0</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>9815CCD9-5960-470C-B5A4-FF0D721640F2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>set:0.3333,0,0.6667,1</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>25</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>9</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F0AE0034-CCD3-4C83-A9D5-8D1E21842705</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>set:0,0,0.3333,1</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>28</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>8</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>E033E318-43B0-4651-8E84-D2793A0409E2</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -330,6 +891,10 @@ if [ ! -e ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.a
 fi
 
 open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred.layout/layouts.yaml</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -338,7 +903,7 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>5DD314C2-0AF2-46A3-8880-09DD6D56B01E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -359,7 +924,7 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>9F2EF603-B6CC-4BEF-88EE-0D68066ACCE9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -379,6 +944,10 @@ if [ ! -e ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.a
 fi
 
 open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred.layout</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -387,7 +956,59 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>9D883753-5A00-4863-B525-F8584DBA0FD1</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>9268E4B0-322E-449A-881D-0F86EBD13212</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>lc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Center</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EC5B8B5B-24D7-4316-B2EA-E197F8AC4531</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -399,6 +1020,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "set:0.1,0.1,0.9,0.9"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -407,7 +1032,38 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>42FF0B2B-46D2-410A-8D56-D0869528CB59</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>3</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>F</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0948A64C-82F9-4BB9-9DC0-9BCB9A43CFBC</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -415,18 +1071,20 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>c</string>
+				<string>lf</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
-				<string>Center</string>
+				<string>Full</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>EC5B8B5B-24D7-4316-B2EA-E197F8AC4531</string>
+			<string>29660068-25AD-4F84-BDFF-A53D0AA57A5B</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -438,6 +1096,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "set:0,0,1,1"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -446,7 +1108,7 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>673C9067-7A5F-456B-8D36-9944A2E363B8</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -454,18 +1116,51 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>f</string>
+				<string>lm</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
-				<string>Full</string>
+				<string>Move to Center</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>29660068-25AD-4F84-BDFF-A53D0AA57A5B</string>
+			<string>546DA8C7-B598-424E-A5D6-84E7F9B28E9F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>46</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>M</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1EFDC272-E2C9-403D-9845-91F767CEFEAD</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -477,6 +1172,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "move:0.5,0.5"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -485,7 +1184,7 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>6E39E541-4F72-4E50-A615-49E1FFC9A41E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -493,26 +1192,9 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>m</string>
-				<key>text</key>
-				<string>Move to Center</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>546DA8C7-B598-424E-A5D6-84E7F9B28E9F</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>e</string>
+				<string>le</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Left</string>
 				<key>withspace</key>
@@ -523,7 +1205,38 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>D28A9EB0-22D3-499C-8E09-BCD4D07A544A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>14</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>E</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>663DDC64-8666-409F-8A75-E976B5D087E2</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -535,6 +1248,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "set:0,0,0.5,1"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -543,7 +1260,59 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>9DC11F89-BB86-4363-9950-25E61F0D69B3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>lr</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Right</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DD509A25-DAB1-4ED3-A9B4-5BD6C931BE07</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>15</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>R</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>286928BC-1B79-479D-B761-85FDCC011A01</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -555,6 +1324,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "set:0.5,0,1,1"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -563,7 +1336,7 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>568F2D89-969D-4756-A5F6-33399DCFA96D</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -571,18 +1344,20 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>r</string>
+				<string>lt</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
-				<string>Right</string>
+				<string>Top</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>DD509A25-DAB1-4ED3-A9B4-5BD6C931BE07</string>
+			<string>58471BB7-9D86-4063-BCA3-2DC5BBADAA8C</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -594,6 +1369,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "set:0,0,1,0.5"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -602,7 +1381,38 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>351ED8B0-52BE-4FC2-B1AA-B367032F49D3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>17</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>T</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>A2E06EEE-6FF3-41BB-8E38-2540245A7784</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -610,18 +1420,20 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>t</string>
+				<string>lb</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
-				<string>Top</string>
+				<string>Bottom</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>58471BB7-9D86-4063-BCA3-2DC5BBADAA8C</string>
+			<string>277EB8CF-2B86-4F8D-868C-7E39EE34ACD7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -633,6 +1445,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "set:0,0.5,1,1"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -641,26 +1457,38 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>A48E0764-141D-4E14-A1DF-B500E5E78025</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>b</string>
-				<key>text</key>
-				<string>Bottom</string>
-				<key>withspace</key>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
 				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>11</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>B</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>277EB8CF-2B86-4F8D-868C-7E39EE34ACD7</string>
+			<string>07EF44CF-9D26-42E4-9A55-6AFA3E84E393</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -672,6 +1500,10 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<key>script</key>
 				<string>/usr/bin/perl layout.pl "auto:layout"
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -680,7 +1512,7 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>CC01BAAA-05C4-478F-BB25-314CB4C66707</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -689,6 +1521,8 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>a</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Auto Layout</string>
 				<key>withspace</key>
@@ -699,132 +1533,292 @@ open ~/Library/Application\ Support/Alfred\ 2/Workflow\ Data/de.leanovate.alfred
 			<key>uid</key>
 			<string>33D695B6-8D50-4928-960C-E8550B0B4619</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>07EF44CF-9D26-42E4-9A55-6AFA3E84E393</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>1660</integer>
+		</dict>
+		<key>0948A64C-82F9-4BB9-9DC0-9BCB9A43CFBC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>990</integer>
+		</dict>
 		<key>1DABD84A-FE15-4A4F-8D33-40231B8E1DA3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>140</real>
 		</dict>
+		<key>1EFDC272-E2C9-403D-9845-91F767CEFEAD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>1120</integer>
+		</dict>
+		<key>22B7C6F1-6833-472D-B9FA-97C3D77EB20C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
 		<key>277EB8CF-2B86-4F8D-868C-7E39EE34ACD7</key>
 		<dict>
+			<key>xpos</key>
+			<integer>280</integer>
 			<key>ypos</key>
-			<real>1630</real>
+			<integer>1610</integer>
+		</dict>
+		<key>286928BC-1B79-479D-B761-85FDCC011A01</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>1390</integer>
 		</dict>
 		<key>29660068-25AD-4F84-BDFF-A53D0AA57A5B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
 			<key>ypos</key>
-			<real>1030</real>
-		</dict>
-		<key>328173F0-A7F1-4EA9-BE6B-47353EAF5010</key>
-		<dict>
-			<key>ypos</key>
-			<real>250</real>
+			<integer>1000</integer>
 		</dict>
 		<key>33D695B6-8D50-4928-960C-E8550B0B4619</key>
 		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
 			<key>ypos</key>
-			<real>1760</real>
+			<integer>1860</integer>
 		</dict>
 		<key>351ED8B0-52BE-4FC2-B1AA-B367032F49D3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1510</real>
 		</dict>
 		<key>4109C8CA-8D0F-4B02-A658-9D6CB5630508</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>140</real>
 		</dict>
 		<key>42FF0B2B-46D2-410A-8D56-D0869528CB59</key>
 		<dict>
+			<key>xpos</key>
+			<integer>520</integer>
 			<key>ypos</key>
-			<real>910</real>
+			<integer>900</integer>
 		</dict>
 		<key>546DA8C7-B598-424E-A5D6-84E7F9B28E9F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>1150</real>
+			<integer>1120</integer>
 		</dict>
 		<key>568F2D89-969D-4756-A5F6-33399DCFA96D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1390</real>
 		</dict>
 		<key>58471BB7-9D86-4063-BCA3-2DC5BBADAA8C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>1510</real>
+			<integer>1490</integer>
 		</dict>
 		<key>5DD314C2-0AF2-46A3-8880-09DD6D56B01E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>630</real>
 		</dict>
+		<key>663DDC64-8666-409F-8A75-E976B5D087E2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>1260</integer>
+		</dict>
 		<key>673C9067-7A5F-456B-8D36-9944A2E363B8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1030</real>
 		</dict>
 		<key>691EF607-FFE2-44E8-A264-F2D570686AAB</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>6E39E541-4F72-4E50-A615-49E1FFC9A41E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1150</real>
 		</dict>
+		<key>71519525-BB86-4394-989E-16D1AF2AF3B4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>650</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>8CEB8FAA-49B9-4AD1-AF8F-01B27DE57F3F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>310</integer>
+		</dict>
+		<key>8F881241-6909-43A4-8A54-58AAD6C02E9A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>620</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>9268E4B0-322E-449A-881D-0F86EBD13212</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>850</integer>
+		</dict>
+		<key>9815CCD9-5960-470C-B5A4-FF0D721640F2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>600</integer>
+			<key>ypos</key>
+			<integer>420</integer>
+		</dict>
 		<key>9964D2C7-BC11-4D7B-BCD3-83FBA1313EAE</key>
 		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
 			<key>ypos</key>
-			<real>380</real>
+			<integer>370</integer>
 		</dict>
 		<key>9D883753-5A00-4863-B525-F8584DBA0FD1</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>750</real>
 		</dict>
 		<key>9DC11F89-BB86-4363-9950-25E61F0D69B3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1270</real>
 		</dict>
 		<key>9F2EF603-B6CC-4BEF-88EE-0D68066ACCE9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>680</real>
 		</dict>
+		<key>A2E06EEE-6FF3-41BB-8E38-2540245A7784</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>1520</integer>
+		</dict>
 		<key>A48E0764-141D-4E14-A1DF-B500E5E78025</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
-			<real>1630</real>
+			<integer>1640</integer>
+		</dict>
+		<key>B407252F-5227-4C8C-9906-B09901D53F76</key>
+		<dict>
+			<key>xpos</key>
+			<integer>810</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>C2B12F1F-73E4-468B-8EAA-96F70988761B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>10</integer>
 		</dict>
 		<key>CC01BAAA-05C4-478F-BB25-314CB4C66707</key>
 		<dict>
+			<key>xpos</key>
+			<integer>530</integer>
 			<key>ypos</key>
-			<real>1760</real>
+			<integer>1860</integer>
 		</dict>
 		<key>D28A9EB0-22D3-499C-8E09-BCD4D07A544A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
 			<key>ypos</key>
-			<real>1270</real>
+			<integer>1240</integer>
 		</dict>
 		<key>DD509A25-DAB1-4ED3-A9B4-5BD6C931BE07</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>1390</real>
+			<integer>1360</integer>
+		</dict>
+		<key>E033E318-43B0-4651-8E84-D2793A0409E2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>460</integer>
 		</dict>
 		<key>EC5B8B5B-24D7-4316-B2EA-E197F8AC4531</key>
 		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
 			<key>ypos</key>
-			<real>910</real>
+			<integer>870</integer>
+		</dict>
+		<key>F0153D9E-3A79-4AD9-887C-05842E8A1851</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>F0AE0034-CCD3-4C83-A9D5-8D1E21842705</key>
+		<dict>
+			<key>xpos</key>
+			<integer>460</integer>
+			<key>ypos</key>
+			<integer>440</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
